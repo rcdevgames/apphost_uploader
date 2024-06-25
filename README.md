@@ -1,47 +1,43 @@
-Berikut adalah contoh README yang cantik untuk proyek Git Anda:
-
----
-
 # AppHost Uploader
 
-AppHost Uploader adalah aplikasi yang dirancang untuk memudahkan pengunggahan file APK ke server. Aplikasi ini dibuat menggunakan bahasa pemrograman Go.
+Halo gaes! Ini dia AppHost Uploader, aplikasi buat upload APK ke server yang simpel dan cepat pake Go. 
 
-## Prasyarat
+## Syarat-syarat
 
-Sebelum memulai, pastikan Anda telah menginstal:
+Sebelum mulai, pastiin lu udah punya ini:
 
 - [Go](https://golang.org/doc/install) versi terbaru.
 
-## Cara Penggunaan
+## Cara Pakai
 
-Ikuti langkah-langkah berikut untuk menjalankan aplikasi:
+Ikutin langkah-langkah berikut buat jalanin aplikasinya:
 
-### 1. Clone Repository
+### 1. Clone Repo
 
-Clone repository ini ke komputer Anda dengan menggunakan perintah berikut:
+Clone repo ini ke laptop/PC kamu:
 
 ```sh
 git clone https://github.com/rcdevgames/apphost_uploader.git
 cd apphost_uploader
 ```
 
-### 2. Menjalankan go mod tidy
+### 2. Setup Dependensi
 
-Jalankan perintah berikut untuk mengatur dependensi Go:
+Jalanin perintah ini buat setup dependensi Go:
 
 ```sh
 go mod tidy
 ```
 
-### 3. Menjalankan Aplikasi
+### 3. Jalanin Aplikasinya
 
-Untuk menjalankan aplikasi, gunakan perintah berikut:
+Buat jalanin aplikasinya, pake perintah ini:
 
 ```sh
 go run main.go <folder_apk_lau_bos> <versi>
 ```
 
-Sebagai contoh:
+Contohnya nih:
 
 ```sh
 go run main.go ./apk_gweh_nih_bwang.apk 1.0.0
@@ -49,16 +45,12 @@ go run main.go ./apk_gweh_nih_bwang.apk 1.0.0
 
 ## Kontribusi
 
-Jika Anda ingin berkontribusi pada proyek ini, silakan lakukan fork repository ini, buat fitur atau perbaikan baru di branch Anda sendiri, dan kirim pull request kepada kami.
+Kalo lo mau kontribusi, boleh banget! Fork aja repo ini, bikin branch baru buat fitur atau perbaikan lo, terus kirim pull request ke kita.
 
 ## Lisensi
 
-Proyek ini dilisensikan di bawah [MIT License](LICENSE).
+Proyek ini dilisensi di bawah [MIT License](LICENSE).
 
 ## Kontak
 
-Jika Anda memiliki pertanyaan atau saran, silakan hubungi kami di [rcdev.games@gmail.com](mailto:rcdev.games@gmail.com).
-
----
-
-Dengan README ini, pengguna baru akan lebih mudah memahami cara mengoperasikan aplikasi Anda.
+Ada pertanyaan atau saran? Langsung aja email kita di [rcdev.games@gmail.com](mailto:rcdev.games@gmail.com).
